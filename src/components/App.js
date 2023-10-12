@@ -6,7 +6,7 @@ const relatives = [
   "Relative2",
   "relative3",
 
-]
+];
 
 const App = () => {
   return (
