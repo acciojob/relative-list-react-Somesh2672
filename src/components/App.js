@@ -13,7 +13,7 @@ const App = () => {
     <div id="main">
         <ol id='relativeList'>
             {relatives.map((relative,index) =>(
-              <li id={'relativeListItem' + ${index+1}}>
+              <li id={'relativeListItem ${index+1}'}>
                 {relative}
               </li>
             ))}
